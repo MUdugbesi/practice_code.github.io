@@ -58,6 +58,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .nav-links li {
@@ -103,12 +104,13 @@ h2 {
 }
 
 .mission {
-    height: 100px;
+    height: auto;
     border: 1px solid white;
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:5px;
 }
 
 
